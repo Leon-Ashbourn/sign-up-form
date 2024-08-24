@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .navbar-container{
+    width: 100%;
+    background-color: lightblue;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    list-style-type: none;
+  }
+  input, label {
+    display: block;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .image-logo {
+    position: relative;
+  }
+  .image {
+    width: 40vw;
+    height: 140vh;
+    object-fit: fill;
+  }
+  .logo-pic {
+    width: 8vw;
+    object-fit: fill;
+  }
+  .image-logo > div {
+    color: white;
+    font-weight: 700;
+    font-size: 10%;
+  }
+  .logo {
+    background-color: rgb(30 30 30 /0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 9rem;
+    width: 100%;
+    padding: 10px auto 10px;
+  }
+  .logo >div  {
+    font-size: 5vw;
+  }
+  .signup-container {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 130vh;
+    justify-content: center;
+    gap: 30px;
+  }
+  .upper-body, .lower-body {
+    padding-left: 40px;
+  }
+  
+  .signup-container >.upper-body {
+    padding: 0px 50px 0px 40px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    
+  }
+  .middle-body {
+    width: 100%;
+    box-shadow: 4px 0px 10px  black;
+  }
+  .lower-body {
+    margin-top: 30px;
+  }
+  p {
+    min-inline-size: clamp(45ch 64ch 75ch);
+  }
+  form {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+  .form-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 20px;
+  }
+  .form-container > div {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    gap: 30px;
+  }
+  .caption {
+    padding-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  button {
+    font-size: 1rem;
+    font-weight: 650;
+    color: white;
+    padding: 12px 28px;
+    background-color: rgb(30 30 30 /0.8);
+    border-radius: 16px;
+    border: 2px solid black;
+    box-shadow: 0px 10px 20px 1px black;
+  }
+  button:hover {
+    background-color: black;
+  }
+  a {
+    color: darkgreen;
+  }
+  
+  input:invalid {
+    border: 1px solid red;
+  }
+  input:valid {
+    border: 2px solid green;
+    background: rgb(20 200 20 /0.3)
+  }
+  input:focus {
+    outline: none;
+    border: 2px solid blue;
+    box-shadow: 0px 0px 10px 0px grey;
+  }
+  
+  
