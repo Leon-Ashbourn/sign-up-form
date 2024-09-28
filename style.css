@@ -136,7 +136,7 @@ body{
   input:invalid {
     border: 1px solid red;
   }
-  input:valid {
+  input:valid:required {
     border: 2px solid green;
     background: rgb(20 200 20 /0.3)
   }
